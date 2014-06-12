@@ -10,6 +10,12 @@ import Foundation
 
 class RomanNumeralConverter {
     func convert(let input: String) -> Int {
-        return 1
+        var output: Int = 0
+
+        for romanNumeral in input {
+            output += 1
+        }
+
+        return output
     }
 }
