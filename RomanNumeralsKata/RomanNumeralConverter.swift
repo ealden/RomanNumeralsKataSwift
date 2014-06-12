@@ -11,7 +11,8 @@ import Foundation
 class RomanNumeralConverter {
     let romanNumeralToNumber = [
         "I": 1,
-        "V": 5
+        "V": 5,
+        "X": 10
     ]
 
     func convert(let input: String) -> Int {

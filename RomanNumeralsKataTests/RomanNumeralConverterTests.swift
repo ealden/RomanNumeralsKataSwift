@@ -30,4 +30,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn4ForIV() {
         XCTAssertEqual(4, converter.convert("IV"))
     }
+
+    func testShouldReturn10ForX() {
+        XCTAssertEqual(10, converter.convert("X"))
+    }
 }
