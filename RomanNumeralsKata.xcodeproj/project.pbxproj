@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34A74501949EFB200A8A531 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A744F1949EFB200A8A531 /* main.swift */; };
+		F34A74521949EFB200A8A531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A74511949EFB200A8A531 /* AppDelegate.swift */; };
+		F34A74541949EFB200A8A531 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34A74531949EFB200A8A531 /* Images.xcassets */; };
+		F34A74571949EFB200A8A531 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34A74551949EFB200A8A531 /* MainMenu.xib */; };
+		F34A74631949EFB200A8A531 /* RomanNumeralsKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A74621949EFB200A8A531 /* RomanNumeralsKataTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F34A745D1949EFB200A8A531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34A74421949EFB200A8A531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34A74491949EFB200A8A531;
+			remoteInfo = RomanNumeralsKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F34A744A1949EFB200A8A531 /* RomanNumeralsKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralsKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34A744E1949EFB200A8A531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34A744F1949EFB200A8A531 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F34A74511949EFB200A8A531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F34A74531949EFB200A8A531 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F34A74561949EFB200A8A531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F34A745C1949EFB200A8A531 /* RomanNumeralsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34A74611949EFB200A8A531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34A74621949EFB200A8A531 /* RomanNumeralsKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsKataTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34A74471949EFB200A8A531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A74591949EFB200A8A531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F34A74411949EFB200A8A531 = {
+			isa = PBXGroup;
+			children = (
+				F34A744C1949EFB200A8A531 /* RomanNumeralsKata */,
+				F34A745F1949EFB200A8A531 /* RomanNumeralsKataTests */,
+				F34A744B1949EFB200A8A531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F34A744B1949EFB200A8A531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34A744A1949EFB200A8A531 /* RomanNumeralsKata.app */,
+				F34A745C1949EFB200A8A531 /* RomanNumeralsKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F34A744C1949EFB200A8A531 /* RomanNumeralsKata */ = {
+			isa = PBXGroup;
+			children = (
+				F34A74511949EFB200A8A531 /* AppDelegate.swift */,
+				F34A74531949EFB200A8A531 /* Images.xcassets */,
+				F34A74551949EFB200A8A531 /* MainMenu.xib */,
+				F34A744D1949EFB200A8A531 /* Supporting Files */,
+			);
+			path = RomanNumeralsKata;
+			sourceTree = "<group>";
+		};
+		F34A744D1949EFB200A8A531 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34A744E1949EFB200A8A531 /* Info.plist */,
+				F34A744F1949EFB200A8A531 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F34A745F1949EFB200A8A531 /* RomanNumeralsKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34A74621949EFB200A8A531 /* RomanNumeralsKataTests.swift */,
+				F34A74601949EFB200A8A531 /* Supporting Files */,
+			);
+			path = RomanNumeralsKataTests;
+			sourceTree = "<group>";
+		};
+		F34A74601949EFB200A8A531 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34A74611949EFB200A8A531 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34A74491949EFB200A8A531 /* RomanNumeralsKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34A74661949EFB200A8A531 /* Build configuration list for PBXNativeTarget "RomanNumeralsKata" */;
+			buildPhases = (
+				F34A74461949EFB200A8A531 /* Sources */,
+				F34A74471949EFB200A8A531 /* Frameworks */,
+				F34A74481949EFB200A8A531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanNumeralsKata;
+			productName = RomanNumeralsKata;
+			productReference = F34A744A1949EFB200A8A531 /* RomanNumeralsKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F34A745B1949EFB200A8A531 /* RomanNumeralsKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34A74691949EFB200A8A531 /* Build configuration list for PBXNativeTarget "RomanNumeralsKataTests" */;
+			buildPhases = (
+				F34A74581949EFB200A8A531 /* Sources */,
+				F34A74591949EFB200A8A531 /* Frameworks */,
+				F34A745A1949EFB200A8A531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34A745E1949EFB200A8A531 /* PBXTargetDependency */,
+			);
+			name = RomanNumeralsKataTests;
+			productName = RomanNumeralsKataTests;
+			productReference = F34A745C1949EFB200A8A531 /* RomanNumeralsKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34A74421949EFB200A8A531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ealden Escañan";
+				TargetAttributes = {
+					F34A74491949EFB200A8A531 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F34A745B1949EFB200A8A531 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F34A74491949EFB200A8A531;
+					};
+				};
+			};
+			buildConfigurationList = F34A74451949EFB200A8A531 /* Build configuration list for PBXProject "RomanNumeralsKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F34A74411949EFB200A8A531;
+			productRefGroup = F34A744B1949EFB200A8A531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F34A74491949EFB200A8A531 /* RomanNumeralsKata */,
+				F34A745B1949EFB200A8A531 /* RomanNumeralsKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34A74481949EFB200A8A531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A74541949EFB200A8A531 /* Images.xcassets in Resources */,
+				F34A74571949EFB200A8A531 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A745A1949EFB200A8A531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34A74461949EFB200A8A531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A74521949EFB200A8A531 /* AppDelegate.swift in Sources */,
+				F34A74501949EFB200A8A531 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A74581949EFB200A8A531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A74631949EFB200A8A531 /* RomanNumeralsKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F34A745E1949EFB200A8A531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34A74491949EFB200A8A531 /* RomanNumeralsKata */;
+			targetProxy = F34A745D1949EFB200A8A531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F34A74551949EFB200A8A531 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34A74561949EFB200A8A531 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34A74641949EFB200A8A531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F34A74651949EFB200A8A531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F34A74671949EFB200A8A531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumeralsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F34A74681949EFB200A8A531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumeralsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F34A746A1949EFB200A8A531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumeralsKata.app/Contents/MacOS/RomanNumeralsKata";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RomanNumeralsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F34A746B1949EFB200A8A531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumeralsKata.app/Contents/MacOS/RomanNumeralsKata";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RomanNumeralsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34A74451949EFB200A8A531 /* Build configuration list for PBXProject "RomanNumeralsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A74641949EFB200A8A531 /* Debug */,
+				F34A74651949EFB200A8A531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34A74661949EFB200A8A531 /* Build configuration list for PBXNativeTarget "RomanNumeralsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A74671949EFB200A8A531 /* Debug */,
+				F34A74681949EFB200A8A531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F34A74691949EFB200A8A531 /* Build configuration list for PBXNativeTarget "RomanNumeralsKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A746A1949EFB200A8A531 /* Debug */,
+				F34A746B1949EFB200A8A531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34A74421949EFB200A8A531 /* Project object */;
+}
