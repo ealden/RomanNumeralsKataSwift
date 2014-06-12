@@ -15,8 +15,8 @@ class RomanNumeralConverter {
     ]
 
     func convert(let input: String) -> Int {
-        var output: Int = 0
-        var lastNumber: Int = 0
+        var output = 0
+        var lastNumber = 0
 
         for romanNumeral in input.reverse() {
             if let number = romanNumeralToNumber[String(romanNumeral)] {
