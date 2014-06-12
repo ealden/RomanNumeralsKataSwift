@@ -12,6 +12,9 @@
 		F34A74541949EFB200A8A531 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34A74531949EFB200A8A531 /* Images.xcassets */; };
 		F34A74571949EFB200A8A531 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34A74551949EFB200A8A531 /* MainMenu.xib */; };
 		F34A74631949EFB200A8A531 /* RomanNumeralsKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A74621949EFB200A8A531 /* RomanNumeralsKataTests.swift */; };
+		F34A746D1949F06D00A8A531 /* RomanNumeralConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A746C1949F06D00A8A531 /* RomanNumeralConverterTests.swift */; };
+		F34A746F1949F09900A8A531 /* RomanNumeralConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A746E1949F09900A8A531 /* RomanNumeralConverter.swift */; };
+		F34A74701949F14400A8A531 /* RomanNumeralConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A746E1949F09900A8A531 /* RomanNumeralConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 		F34A745C1949EFB200A8A531 /* RomanNumeralsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34A74611949EFB200A8A531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34A74621949EFB200A8A531 /* RomanNumeralsKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsKataTests.swift; sourceTree = "<group>"; };
+		F34A746C1949F06D00A8A531 /* RomanNumeralConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverterTests.swift; sourceTree = "<group>"; };
+		F34A746E1949F09900A8A531 /* RomanNumeralConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 			children = (
 				F34A744E1949EFB200A8A531 /* Info.plist */,
 				F34A744F1949EFB200A8A531 /* main.swift */,
+				F34A746E1949F09900A8A531 /* RomanNumeralConverter.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				F34A74611949EFB200A8A531 /* Info.plist */,
+				F34A746C1949F06D00A8A531 /* RomanNumeralConverterTests.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -210,6 +217,7 @@
 			files = (
 				F34A74521949EFB200A8A531 /* AppDelegate.swift in Sources */,
 				F34A74501949EFB200A8A531 /* main.swift in Sources */,
+				F34A746F1949F09900A8A531 /* RomanNumeralConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34A746D1949F06D00A8A531 /* RomanNumeralConverterTests.swift in Sources */,
 				F34A74631949EFB200A8A531 /* RomanNumeralsKataTests.swift in Sources */,
+				F34A74701949F14400A8A531 /* RomanNumeralConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
