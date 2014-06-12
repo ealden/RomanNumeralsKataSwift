@@ -13,7 +13,14 @@ class RomanNumeralConverter {
         var output: Int = 0
 
         for romanNumeral in input {
-            output += 1
+            switch romanNumeral {
+            case "I":
+                output += 1
+            case "V":
+                output += 5
+            default:
+                output += 0
+            }
         }
 
         return output
