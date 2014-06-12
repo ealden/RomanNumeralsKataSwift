@@ -78,4 +78,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn400ForCD() {
         XCTAssertEqual(400, converter.convert("CD"))
     }
+
+    func testShouldReturn900ForCM() {
+        XCTAssertEqual(900, converter.convert("CM"))
+    }
 }
