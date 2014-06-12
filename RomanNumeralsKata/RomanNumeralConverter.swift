@@ -16,13 +16,32 @@ class RomanNumeralConverter {
 
     func convert(let input: String) -> Int {
         var output: Int = 0
+        var lastNumber: Int = 0
 
-        for romanNumeral in input {
+        for romanNumeral in input.reverse() {
             if let number = romanNumeralToNumber[String(romanNumeral)] {
-                output += number
+                if (lastNumber != 0) && (lastNumber > number) {
+                    output -= number
+                } else {
+                    output += number
+                }
+
+                lastNumber = number
             }
         }
 
         return output
+    }
+}
+
+extension String {
+    func reverse() -> String {
+        var string = ""
+
+        for char in self {
+            string = char + string
+        }
+
+        return string
     }
 }

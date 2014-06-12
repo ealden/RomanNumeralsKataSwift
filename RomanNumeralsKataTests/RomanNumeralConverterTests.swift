@@ -26,4 +26,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForUnsupportedRomanNumeral() {
         XCTAssertEqual(0, converter.convert("A"))
     }
+
+    func testShouldReturn4ForIV() {
+        XCTAssertEqual(4, converter.convert("IV"))
+    }
 }
