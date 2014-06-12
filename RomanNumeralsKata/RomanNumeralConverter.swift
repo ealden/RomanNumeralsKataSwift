@@ -9,17 +9,17 @@
 import Foundation
 
 class RomanNumeralConverter {
+    let romanNumeralToNumber = [
+        "I": 1,
+        "V": 5
+    ]
+
     func convert(let input: String) -> Int {
         var output: Int = 0
 
         for romanNumeral in input {
-            switch romanNumeral {
-            case "I":
-                output += 1
-            case "V":
-                output += 5
-            default:
-                output += 0
+            if let number = romanNumeralToNumber[String(romanNumeral)] {
+                output += number
             }
         }
 
