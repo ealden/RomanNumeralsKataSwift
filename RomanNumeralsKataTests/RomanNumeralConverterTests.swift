@@ -70,4 +70,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn40ForXL() {
         XCTAssertEqual(40, converter.convert("XL"))
     }
+
+    func testShouldReturn90ForXC() {
+        XCTAssertEqual(90, converter.convert("XC"))
+    }
 }
