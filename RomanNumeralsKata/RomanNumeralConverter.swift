@@ -9,5 +9,7 @@
 import Foundation
 
 class RomanNumeralConverter {
-    
+    func convert(let input: String) -> Int {
+        return 1
+    }
 }
