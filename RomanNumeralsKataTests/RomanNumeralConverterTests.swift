@@ -50,4 +50,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn300ForCCC() {
         XCTAssertEqual(300, converter.convert("CCC"))
     }
+
+    func testShouldReturn500ForD() {
+        XCTAssertEqual(500, converter.convert("D"))
+    }
 }

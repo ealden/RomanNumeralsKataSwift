@@ -14,7 +14,8 @@ class RomanNumeralConverter {
         "V": 5,
         "X": 10,
         "L": 50,
-        "C": 100
+        "C": 100,
+        "D": 500
     ]
 
     func convert(let input: String) -> Int {
