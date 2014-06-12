@@ -42,4 +42,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn50ForL() {
         XCTAssertEqual(50, converter.convert("L"))
     }
+
+    func testShouldReturn100ForC() {
+        XCTAssertEqual(100, converter.convert("C"))
+    }
 }
