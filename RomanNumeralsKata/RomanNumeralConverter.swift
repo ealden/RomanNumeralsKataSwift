@@ -77,7 +77,8 @@ extension String {
             "IIII", "XXXX", "CCCC", "MMMM",
             "VX", "VL", "VC", "VD", "VM",
             "LC", "LD", "LM",
-            "DM"
+            "DM",
+            "IL", "IC", "ID", "IM"
         ]
 
         var valid = true
