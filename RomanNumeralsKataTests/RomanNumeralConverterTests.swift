@@ -162,4 +162,12 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForIM() {
         XCTAssertEqual(0, converter.convert("IM"))
     }
+
+    func testShouldReturn0ForXD() {
+        XCTAssertEqual(0, converter.convert("XD"))
+    }
+
+    func testShouldReturn0ForXM() {
+        XCTAssertEqual(0, converter.convert("XM"))
+    }
 }

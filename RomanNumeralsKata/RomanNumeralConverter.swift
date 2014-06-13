@@ -78,7 +78,8 @@ extension String {
             "VX", "VL", "VC", "VD", "VM",
             "LC", "LD", "LM",
             "DM",
-            "IL", "IC", "ID", "IM"
+            "IL", "IC", "ID", "IM",
+            "XD", "XM"
         ]
 
         var valid = true
