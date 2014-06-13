@@ -75,7 +75,8 @@ extension String {
         let invalidRomanNumeralStrings = [
             "VV", "LL", "DD",
             "IIII", "XXXX", "CCCC", "MMMM",
-            "VX", "VL", "VC", "VD", "VM"
+            "VX", "VL", "VC", "VD", "VM",
+            "LC", "LD", "LM"
         ]
 
         var valid = true

@@ -130,4 +130,16 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForVM() {
         XCTAssertEqual(0, converter.convert("VM"))
     }
+
+    func testShouldReturn0ForLC() {
+        XCTAssertEqual(0, converter.convert("LC"))
+    }
+
+    func testShouldReturn0ForLD() {
+        XCTAssertEqual(0, converter.convert("LD"))
+    }
+
+    func testShouldReturn0ForLM() {
+        XCTAssertEqual(0, converter.convert("LM"))
+    }
 }
