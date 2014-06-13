@@ -21,6 +21,16 @@ class RomanNumeralConverter {
 
     func convert(let input: String) -> Int {
         var output = 0
+
+        if !input.rangeOfString("VV") {
+            output = convertValidRomanNumeralString(input)
+        }
+
+        return output
+    }
+
+    func convertValidRomanNumeralString(let input: String) -> Int {
+        var output = 0
         var lastNumber = 0
 
         for romanNumeral in input.reverse() {
