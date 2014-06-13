@@ -72,7 +72,7 @@ extension String {
     func isValidRomanNumeralString() -> Bool {
         var valid = true
 
-        for invalidRomanNumeralString in ["VV", "LL"] {
+        for invalidRomanNumeralString in ["VV", "LL", "DD"] {
             if self.rangeOfString(invalidRomanNumeralString) {
                 valid = false
             }
