@@ -106,4 +106,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForCCCC() {
         XCTAssertEqual(0, converter.convert("CCCC"))
     }
+
+    func testShouldReturn0ForMMMM() {
+        XCTAssertEqual(0, converter.convert("MMMM"))
+    }
 }
