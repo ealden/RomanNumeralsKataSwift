@@ -22,7 +22,7 @@ class RomanNumeralConverter {
     func convert(let input: String) -> Int {
         var output = 0
 
-        if !input.rangeOfString("VV") {
+        if input.isValidRomanNumeralString() {
             output = convertValidRomanNumeralString(input)
         }
 
@@ -67,5 +67,15 @@ extension String {
         }
 
         return string
+    }
+
+    func isValidRomanNumeralString() -> Bool {
+        var valid = true
+
+        if self.rangeOfString("VV") {
+            valid = false
+        }
+
+        return valid
     }
 }
