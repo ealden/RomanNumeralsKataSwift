@@ -74,7 +74,7 @@ extension String {
     func isValidRomanNumeralString() -> Bool {
         let invalidRomanNumeralStrings = [
             "VV", "LL", "DD",
-            "IIII"
+            "IIII", "XXXX"
         ]
 
         var valid = true
