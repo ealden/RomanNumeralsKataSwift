@@ -68,11 +68,15 @@ extension String {
 
         return string
     }
+}
 
+extension String {
     func isValidRomanNumeralString() -> Bool {
+        let invalidRomanNumeralStrings = ["VV", "LL", "DD"]
+
         var valid = true
 
-        for invalidRomanNumeralString in ["VV", "LL", "DD"] {
+        for invalidRomanNumeralString in invalidRomanNumeralStrings {
             if self.rangeOfString(invalidRomanNumeralString) {
                 valid = false
             }
