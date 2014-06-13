@@ -82,14 +82,12 @@ extension String {
             "XD", "XM"
         ]
 
-        var valid = true
-
         for invalidRomanNumeralString in invalidRomanNumeralStrings {
             if self.rangeOfString(invalidRomanNumeralString) {
-                valid = false
+                return false
             }
         }
 
-        return valid
+        return true
     }
 }
