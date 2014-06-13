@@ -94,4 +94,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForDD() {
         XCTAssertEqual(0, converter.convert("DD"))
     }
+
+    func testShouldReturn0ForIIII() {
+        XCTAssertEqual(0, converter.convert("IIII"))
+    }
 }
