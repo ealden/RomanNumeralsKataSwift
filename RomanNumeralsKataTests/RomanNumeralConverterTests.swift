@@ -110,4 +110,24 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForMMMM() {
         XCTAssertEqual(0, converter.convert("MMMM"))
     }
+
+    func testShouldReturn0ForVX() {
+        XCTAssertEqual(0, converter.convert("VX"))
+    }
+
+    func testShouldReturn0ForVL() {
+        XCTAssertEqual(0, converter.convert("VL"))
+    }
+
+    func testShouldReturn0ForVC() {
+        XCTAssertEqual(0, converter.convert("VC"))
+    }
+
+    func testShouldReturn0ForVD() {
+        XCTAssertEqual(0, converter.convert("VD"))
+    }
+
+    func testShouldReturn0ForVM() {
+        XCTAssertEqual(0, converter.convert("VM"))
+    }
 }
