@@ -111,63 +111,63 @@ class RomanNumeralConverterTests: XCTestCase {
         XCTAssertEqual(0, converter.convert("MMMM"))
     }
 
-    func testShouldReturn0ForVX() {
+    func testInvalidSubtractionShouldReturn0ForVX() {
         XCTAssertEqual(0, converter.convert("VX"))
     }
 
-    func testShouldReturn0ForVL() {
+    func testInvalidSubtractionShouldReturn0ForVL() {
         XCTAssertEqual(0, converter.convert("VL"))
     }
 
-    func testShouldReturn0ForVC() {
+    func testInvalidSubtractionShouldReturn0ForVC() {
         XCTAssertEqual(0, converter.convert("VC"))
     }
 
-    func testShouldReturn0ForVD() {
+    func testInvalidSubtractionShouldReturn0ForVD() {
         XCTAssertEqual(0, converter.convert("VD"))
     }
 
-    func testShouldReturn0ForVM() {
+    func testInvalidSubtractionShouldReturn0ForVM() {
         XCTAssertEqual(0, converter.convert("VM"))
     }
 
-    func testShouldReturn0ForLC() {
+    func testInvalidSubtractionShouldReturn0ForLC() {
         XCTAssertEqual(0, converter.convert("LC"))
     }
 
-    func testShouldReturn0ForLD() {
+    func testInvalidSubtractionShouldReturn0ForLD() {
         XCTAssertEqual(0, converter.convert("LD"))
     }
 
-    func testShouldReturn0ForLM() {
+    func testInvalidSubtractionShouldReturn0ForLM() {
         XCTAssertEqual(0, converter.convert("LM"))
     }
 
-    func testShouldReturn0ForDM() {
+    func testInvalidSubtractionShouldReturn0ForDM() {
         XCTAssertEqual(0, converter.convert("DM"))
     }
 
-    func testShouldReturn0ForIL() {
+    func testInvalidSubtractionShouldReturn0ForIL() {
         XCTAssertEqual(0, converter.convert("IL"))
     }
 
-    func testShouldReturn0ForIC() {
+    func testInvalidSubtractionShouldReturn0ForIC() {
         XCTAssertEqual(0, converter.convert("IC"))
     }
 
-    func testShouldReturn0ForID() {
+    func testInvalidSubtractionShouldReturn0ForID() {
         XCTAssertEqual(0, converter.convert("ID"))
     }
 
-    func testShouldReturn0ForIM() {
+    func testInvalidSubtractionShouldReturn0ForIM() {
         XCTAssertEqual(0, converter.convert("IM"))
     }
 
-    func testShouldReturn0ForXD() {
+    func testInvalidSubtractionShouldReturn0ForXD() {
         XCTAssertEqual(0, converter.convert("XD"))
     }
 
-    func testShouldReturn0ForXM() {
+    func testInvalidSubtractionShouldReturn0ForXM() {
         XCTAssertEqual(0, converter.convert("XM"))
     }
 
