@@ -45,6 +45,8 @@ class RomanNumeralConverter {
 
               if subtracted && (lastNumber == number) {
                 return 0
+              } else {
+                subtracted = false
               }
             }
 
