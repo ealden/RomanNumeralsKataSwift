@@ -95,19 +95,19 @@ class RomanNumeralConverterTests: XCTestCase {
         XCTAssertEqual(0, converter.convert("DD"))
     }
 
-    func testShouldReturn0ForIIII() {
+    func testRepeatedTooMuchShouldReturn0ForIIII() {
         XCTAssertEqual(0, converter.convert("IIII"))
     }
 
-    func testShouldReturn0ForXXXX() {
+    func testRepeatedTooMuchShouldReturn0ForXXXX() {
         XCTAssertEqual(0, converter.convert("XXXX"))
     }
 
-    func testShouldReturn0ForCCCC() {
+    func testRepeatedTooMuchShouldReturn0ForCCCC() {
         XCTAssertEqual(0, converter.convert("CCCC"))
     }
 
-    func testShouldReturn0ForMMMM() {
+    func testRepeatedTooMuchShouldReturn0ForMMMM() {
         XCTAssertEqual(0, converter.convert("MMMM"))
     }
 
