@@ -32,13 +32,20 @@ class RomanNumeralConverter {
     func convertValidRomanNumeralString(let input: String) -> Int {
         var output = 0
         var lastNumber = 0
+        var subtracted = false
 
         for romanNumeral in input.reverse() {
           if let number = romanNumeralToNumber[String(romanNumeral)] {
             if (lastNumber != 0) && (lastNumber > number) {
               output -= number
+
+              subtracted = true
             } else {
               output += number
+
+              if subtracted && (lastNumber == number) {
+                return 0
+              }
             }
 
             lastNumber = number

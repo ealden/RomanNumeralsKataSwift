@@ -174,4 +174,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForUnsupportedRomanNumeralWithSupportedOnes() {
         XCTAssertEqual(0, converter.convert("AX"))
     }
+
+    func testShouldReturn0ForMultipleSubtractionIIV() {
+        XCTAssertEqual(0, converter.convert("IIV"))
+    }
 }
