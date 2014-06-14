@@ -11,11 +11,7 @@ import XCTest
 class RomanNumeralConverterTests: XCTestCase {
     let converter: RomanNumeralConverter = RomanNumeralConverter()
 
-    func testShouldReturn0ForUnsupportedRomanNumeral() {
-        XCTAssertEqual(0, converter.convert("A"))
-    }
-
-    func testShouldReturn0ForUnsupportedRomanNumeralWithSupportedOnes() {
+    func testShouldReturn0IfInputContainsAnUnsupportedRomanNumeral() {
         XCTAssertEqual(0, converter.convert("AX"))
     }
 
