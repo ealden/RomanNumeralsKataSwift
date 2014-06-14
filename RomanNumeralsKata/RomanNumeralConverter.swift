@@ -42,6 +42,8 @@ class RomanNumeralConverter {
             }
 
             lastNumber = number
+          } else {
+            return 0
           }
         }
 

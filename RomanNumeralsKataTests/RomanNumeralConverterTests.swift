@@ -170,4 +170,8 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForXM() {
         XCTAssertEqual(0, converter.convert("XM"))
     }
+
+    func testShouldReturn0ForUnsupportedRomanNumeralWithSupportedOnes() {
+        XCTAssertEqual(0, converter.convert("AX"))
+    }
 }
