@@ -178,4 +178,24 @@ class RomanNumeralConverterTests: XCTestCase {
     func testShouldReturn0ForMultipleSubtractionIIV() {
         XCTAssertEqual(0, converter.convert("IIV"))
     }
+
+    func testShouldReturn0ForMultipleSubtractionIIX() {
+        XCTAssertEqual(0, converter.convert("IIX"))
+    }
+
+    func testShouldReturn0ForMultipleSubtractionXXL() {
+        XCTAssertEqual(0, converter.convert("XXL"))
+    }
+
+    func testShouldReturn0ForMultipleSubtractionXXC() {
+        XCTAssertEqual(0, converter.convert("XXC"))
+    }
+
+    func testShouldReturn0ForMultipleSubtractionCCD() {
+        XCTAssertEqual(0, converter.convert("CCD"))
+    }
+
+    func testShouldReturn0ForMultipleSubtractionCCM() {
+        XCTAssertEqual(0, converter.convert("CCM"))
+    }
 }
