@@ -34,24 +34,15 @@ class RomanNumeralConverter {
         var lastNumber = 0
 
         for romanNumeral in input.reverse() {
-            let number = convertRomanNumeral(romanNumeral, lastNumber: lastNumber)
-
-            output += number
-            lastNumber = number
-        }
-
-        return output
-    }
-
-    func convertRomanNumeral(let romanNumeral: Character, let lastNumber: Int) -> Int {
-        var output = 0
-
-        if let number = romanNumeralToNumber[String(romanNumeral)] {
+          if let number = romanNumeralToNumber[String(romanNumeral)] {
             if (lastNumber != 0) && (lastNumber > number) {
-                output -= number
+              output -= number
             } else {
-                output += number
+              output += number
             }
+
+            lastNumber = number
+          }
         }
 
         return output
