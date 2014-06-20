@@ -83,15 +83,9 @@ class RomanNumeralConverterTests: XCTestCase {
         XCTAssertEqual(converter.convert("CM"), 900)
     }
 
-    func testInvalidRepeatShouldReturn0ForVV() {
+    func testShouldReturn0IfNonRepeatableNumeralRepeated() {
         XCTAssertEqual(converter.convert("VV"), 0)
-    }
-
-    func testInvalidRepeatShouldReturn0ForLL() {
         XCTAssertEqual(converter.convert("LL"), 0)
-    }
-
-    func testInvalidRepeatShouldReturn0ForDD() {
         XCTAssertEqual(converter.convert("DD"), 0)
     }
 
