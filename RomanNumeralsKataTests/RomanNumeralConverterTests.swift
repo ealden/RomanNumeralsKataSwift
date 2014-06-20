@@ -43,19 +43,10 @@ class RomanNumeralConverterTests: XCTestCase {
         XCTAssertEqual(converter.convert("M"), 1000)
     }
 
-    func testRepeatShouldReturn2ForII() {
+    func testShouldReturnValueForRepeatableNumerals() {
         XCTAssertEqual(converter.convert("II"), 2)
-    }
-
-    func testRepeatShouldReturn30ForXXX() {
         XCTAssertEqual(converter.convert("XXX"), 30)
-    }
-
-    func testRepeatShouldReturn300ForCCC() {
         XCTAssertEqual(converter.convert("CCC"), 300)
-    }
-
-    func testRepeatShouldReturn3000ForMMM() {
         XCTAssertEqual(converter.convert("MMM"), 3000)
     }
 
