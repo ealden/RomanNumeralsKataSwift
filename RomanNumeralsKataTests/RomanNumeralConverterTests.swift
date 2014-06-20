@@ -129,27 +129,15 @@ class RomanNumeralConverterTests: XCTestCase {
         XCTAssertEqual(converter.convert("DM"), 0)
     }
 
-    func testInvalidSubtractionShouldReturn0ForIL() {
+    func testShouldReturn0IfIIsSubtractedAfterNextTwoNumerals() {
         XCTAssertEqual(converter.convert("IL"), 0)
-    }
-
-    func testInvalidSubtractionShouldReturn0ForIC() {
         XCTAssertEqual(converter.convert("IC"), 0)
-    }
-
-    func testInvalidSubtractionShouldReturn0ForID() {
         XCTAssertEqual(converter.convert("ID"), 0)
-    }
-
-    func testInvalidSubtractionShouldReturn0ForIM() {
         XCTAssertEqual(converter.convert("IM"), 0)
     }
 
-    func testInvalidSubtractionShouldReturn0ForXD() {
+    func testShouldReturn0IfXIsSubtractedAfterNextTwoNumerals() {
         XCTAssertEqual(converter.convert("XD"), 0)
-    }
-
-    func testInvalidSubtractionShouldReturn0ForXM() {
         XCTAssertEqual(converter.convert("XM"), 0)
     }
 
