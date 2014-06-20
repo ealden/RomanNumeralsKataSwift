@@ -36,7 +36,7 @@ class RomanNumeralConverter {
 
         for romanNumeral in input.reverse() {
           if let number = romanNumeralToNumber[String(romanNumeral)] {
-            if subtracted && (lastNumber == number) {
+            if subtracted && (lastNumber >= number) {
                 return 0
             }
 
