@@ -130,4 +130,5 @@ class RomanNumeralConverterTests: XCTestCase {
 
     func testShouldReturn24ForXXIV() {
         XCTAssertEqual(converter.convert("XXIV"), 24)
-    }}
+    }
+}
