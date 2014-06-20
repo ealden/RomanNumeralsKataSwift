@@ -12,190 +12,190 @@ class RomanNumeralConverterTests: XCTestCase {
     let converter: RomanNumeralConverter = RomanNumeralConverter()
 
     func testShouldReturn0IfInputContainsAnUnsupportedRomanNumeral() {
-        XCTAssertEqual(0, converter.convert("AX"))
+        XCTAssertEqual(converter.convert("AX"), 0)
     }
 
     func testShouldReturn1ForI() {
-        XCTAssertEqual(1, converter.convert("I"))
+        XCTAssertEqual(converter.convert("I"), 1)
     }
 
     func testShouldReturn5ForV() {
-        XCTAssertEqual(5, converter.convert("V"))
+        XCTAssertEqual(converter.convert("V"), 5)
     }
 
     func testShouldReturn10ForX() {
-        XCTAssertEqual(10, converter.convert("X"))
+        XCTAssertEqual(converter.convert("X"), 10)
     }
 
     func testShouldReturn50ForL() {
-        XCTAssertEqual(50, converter.convert("L"))
+        XCTAssertEqual(converter.convert("L"), 50)
     }
     
     func testShouldReturn100ForC() {
-        XCTAssertEqual(100, converter.convert("C"))
+        XCTAssertEqual(converter.convert("C"), 100)
     }
 
     func testShouldReturn500ForD() {
-        XCTAssertEqual(500, converter.convert("D"))
+        XCTAssertEqual(converter.convert("D"), 500)
     }
 
     func testShouldReturn1000ForM() {
-        XCTAssertEqual(1000, converter.convert("M"))
+        XCTAssertEqual(converter.convert("M"), 1000)
     }
 
     func testRepeatShouldReturn2ForII() {
-        XCTAssertEqual(2, converter.convert("II"))
+        XCTAssertEqual(converter.convert("II"), 2)
     }
 
     func testRepeatShouldReturn30ForXXX() {
-        XCTAssertEqual(30, converter.convert("XXX"))
+        XCTAssertEqual(converter.convert("XXX"), 30)
     }
 
     func testRepeatShouldReturn300ForCCC() {
-        XCTAssertEqual(300, converter.convert("CCC"))
+        XCTAssertEqual(converter.convert("CCC"), 300)
     }
 
     func testRepeatShouldReturn3000ForMMM() {
-        XCTAssertEqual(3000, converter.convert("MMM"))
+        XCTAssertEqual(converter.convert("MMM"), 3000)
     }
 
     func testSubtractionShouldReturn4ForIV() {
-        XCTAssertEqual(4, converter.convert("IV"))
+        XCTAssertEqual(converter.convert("IV"), 4)
     }
 
     func testSubtractionShouldReturn9ForIX() {
-        XCTAssertEqual(9, converter.convert("IX"))
+        XCTAssertEqual(converter.convert("IX"), 9)
     }
 
     func testSubtractionShouldReturn40ForXL() {
-        XCTAssertEqual(40, converter.convert("XL"))
+        XCTAssertEqual(converter.convert("XL"), 40)
     }
 
     func testSubtractionShouldReturn90ForXC() {
-        XCTAssertEqual(90, converter.convert("XC"))
+        XCTAssertEqual(converter.convert("XC"), 90)
     }
 
     func testSubtractionShouldReturn400ForCD() {
-        XCTAssertEqual(400, converter.convert("CD"))
+        XCTAssertEqual(converter.convert("CD"), 400)
     }
 
     func testSubtractionShouldReturn900ForCM() {
-        XCTAssertEqual(900, converter.convert("CM"))
+        XCTAssertEqual(converter.convert("CM"), 900)
     }
 
     func testInvalidRepeatShouldReturn0ForVV() {
-        XCTAssertEqual(0, converter.convert("VV"))
+        XCTAssertEqual(converter.convert("VV"), 0)
     }
 
     func testInvalidRepeatShouldReturn0ForLL() {
-        XCTAssertEqual(0, converter.convert("LL"))
+        XCTAssertEqual(converter.convert("LL"), 0)
     }
 
     func testInvalidRepeatShouldReturn0ForDD() {
-        XCTAssertEqual(0, converter.convert("DD"))
+        XCTAssertEqual(converter.convert("DD"), 0)
     }
 
     func testRepeatedTooMuchShouldReturn0ForIIII() {
-        XCTAssertEqual(0, converter.convert("IIII"))
+        XCTAssertEqual(converter.convert("IIII"), 0)
     }
 
     func testRepeatedTooMuchShouldReturn0ForXXXX() {
-        XCTAssertEqual(0, converter.convert("XXXX"))
+        XCTAssertEqual(converter.convert("XXXX"), 0)
     }
 
     func testRepeatedTooMuchShouldReturn0ForCCCC() {
-        XCTAssertEqual(0, converter.convert("CCCC"))
+        XCTAssertEqual(converter.convert("CCCC"), 0)
     }
 
     func testRepeatedTooMuchShouldReturn0ForMMMM() {
-        XCTAssertEqual(0, converter.convert("MMMM"))
+        XCTAssertEqual(converter.convert("MMMM"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForVX() {
-        XCTAssertEqual(0, converter.convert("VX"))
+        XCTAssertEqual(converter.convert("VX"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForVL() {
-        XCTAssertEqual(0, converter.convert("VL"))
+        XCTAssertEqual(converter.convert("VL"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForVC() {
-        XCTAssertEqual(0, converter.convert("VC"))
+        XCTAssertEqual(converter.convert("VC"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForVD() {
-        XCTAssertEqual(0, converter.convert("VD"))
+        XCTAssertEqual(converter.convert("VD"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForVM() {
-        XCTAssertEqual(0, converter.convert("VM"))
+        XCTAssertEqual(converter.convert("VM"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForLC() {
-        XCTAssertEqual(0, converter.convert("LC"))
+        XCTAssertEqual(converter.convert("LC"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForLD() {
-        XCTAssertEqual(0, converter.convert("LD"))
+        XCTAssertEqual(converter.convert("LD"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForLM() {
-        XCTAssertEqual(0, converter.convert("LM"))
+        XCTAssertEqual(converter.convert("LM"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForDM() {
-        XCTAssertEqual(0, converter.convert("DM"))
+        XCTAssertEqual(converter.convert("DM"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForIL() {
-        XCTAssertEqual(0, converter.convert("IL"))
+        XCTAssertEqual(converter.convert("IL"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForIC() {
-        XCTAssertEqual(0, converter.convert("IC"))
+        XCTAssertEqual(converter.convert("IC"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForID() {
-        XCTAssertEqual(0, converter.convert("ID"))
+        XCTAssertEqual(converter.convert("ID"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForIM() {
-        XCTAssertEqual(0, converter.convert("IM"))
+        XCTAssertEqual(converter.convert("IM"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForXD() {
-        XCTAssertEqual(0, converter.convert("XD"))
+        XCTAssertEqual(converter.convert("XD"), 0)
     }
 
     func testInvalidSubtractionShouldReturn0ForXM() {
-        XCTAssertEqual(0, converter.convert("XM"))
+        XCTAssertEqual(converter.convert("XM"), 0)
     }
 
     func testMultipleSubtractionShouldReturn0ForIIV() {
-        XCTAssertEqual(0, converter.convert("IIV"))
+        XCTAssertEqual(converter.convert("IIV"), 0)
     }
 
     func testMultipleSubtractionShouldReturn0ForIIX() {
-        XCTAssertEqual(0, converter.convert("IIX"))
+        XCTAssertEqual(converter.convert("IIX"), 0)
     }
 
     func testMultipleSubtractionShouldReturn0ForXXL() {
-        XCTAssertEqual(0, converter.convert("XXL"))
+        XCTAssertEqual(converter.convert("XXL"), 0)
     }
 
     func testMultipleSubtractionShouldReturn0ForXXC() {
-        XCTAssertEqual(0, converter.convert("XXC"))
+        XCTAssertEqual(converter.convert("XXC"), 0)
     }
 
     func testMultipleSubtractionShouldReturn0ForCCD() {
-        XCTAssertEqual(0, converter.convert("CCD"))
+        XCTAssertEqual(converter.convert("CCD"), 0)
     }
 
     func testMultipleSubtractionShouldReturn0ForCCM() {
-        XCTAssertEqual(0, converter.convert("CCM"))
+        XCTAssertEqual(converter.convert("CCM"), 0)
     }
 
     func testSubtractionAndRepeatShouldReturn24ForXXIV() {
-        XCTAssertEqual(24, converter.convert("XXIV"))
+        XCTAssertEqual(converter.convert("XXIV"), 24)
     }
 }
